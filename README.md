@@ -1,6 +1,6 @@
 # Fake-News-Detection-Using-GNN
 
-A research-grade pipeline for **fake-news detection** that fuses a strong **text branch (MPNet)** with a **heterogeneous GNN branch (GraphSAGE/HeteroSAGE)**, combined via **posterior-level ensembling** for robust, class-balanced performance on **four-way veracity** labels (mostly true, mixture, mostly false, no factual content). The design is intentionally pragmatic: *simple to reproduce on student hardware, yet competitive and transparent.* :contentReference[oaicite:0]{index=0}
+A research-grade pipeline for **fake-news detection** that fuses a strong **text branch (MPNet)** with a **heterogeneous GNN branch (GraphSAGE/HeteroSAGE)**, combined via **posterior-level ensembling** for robust, class-balanced performance on **four-way veracity** labels (mostly true, mixture, mostly false, no factual content). The design is intentionally pragmatic: *simple to reproduce on student hardware, yet competitive and transparent.*
 
 ---
 
