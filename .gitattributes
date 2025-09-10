@@ -1,0 +1,12 @@
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.npz
+*.npy
+*.parquet
+*.zip
+*.tar
+*.tar.gz

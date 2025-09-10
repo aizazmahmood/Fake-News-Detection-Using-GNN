@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# ML / Data (keep folder structure via .gitkeep)
+data/**
+!data/**/
+!data/**/.gitkeep
+
+models/**
+!models/**/
+!models/**/.gitkeep
+
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
