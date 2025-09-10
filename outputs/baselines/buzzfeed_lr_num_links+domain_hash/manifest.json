@@ -1,0 +1,21 @@
+{
+  "dataset": "buzzfeed",
+  "features": {
+    "extras": [
+      "num_links",
+      "domain_hash"
+    ],
+    "num_links": true,
+    "domain_hash": 1024
+  },
+  "classes": [
+    "mixture of true and false",
+    "mostly false",
+    "mostly true",
+    "no factual content"
+  ],
+  "paths": {
+    "confusion_matrix": "outputs/baselines\\buzzfeed_lr_num_links+domain_hash\\confusion_matrix.png",
+    "report_txt": "outputs/baselines\\buzzfeed_lr_num_links+domain_hash\\report.txt"
+  }
+}

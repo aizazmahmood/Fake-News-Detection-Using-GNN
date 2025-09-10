@@ -1,0 +1,21 @@
+{
+  "dataset": "fnn",
+  "features": {
+    "extras": [
+      "share_count_log",
+      "domain_hash"
+    ],
+    "share_count_log": true,
+    "domain_hash": 1024
+  },
+  "classes": [
+    "0",
+    "1"
+  ],
+  "paths": {
+    "confusion_matrix": "outputs/baselines\\fnn_lr_share_count_log+domain_hash\\confusion_matrix.png",
+    "report_txt": "outputs/baselines\\fnn_lr_share_count_log+domain_hash\\report.txt"
+  },
+  "roc_auc": 0.9491725011896383,
+  "pr_auc": 0.9778456791966887
+}
