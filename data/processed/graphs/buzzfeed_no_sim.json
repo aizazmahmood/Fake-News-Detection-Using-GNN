@@ -1,0 +1,30 @@
+{
+  "label_map": {
+    "mixture of true and false": 0,
+    "mostly false": 1,
+    "mostly true": 2,
+    "no factual content": 3
+  },
+  "num_classes": 4,
+  "node_dims": {
+    "article": 769,
+    "domain": 769,
+    "host": 769,
+    "entity": 768
+  },
+  "counts": {
+    "article": 1627,
+    "domain": 49,
+    "host": 691,
+    "entity": 3455
+  },
+  "edge_types": [
+    "('article', 'belongs_to', 'domain')",
+    "('domain', 'rev_belongs_to', 'article')",
+    "('article', 'links_to', 'host')",
+    "('host', 'rev_links_to', 'article')",
+    "('article', 'has_entity', 'entity')",
+    "('entity', 'rev_has_entity', 'article')",
+    "('article', 'similar', 'article')"
+  ]
+}
